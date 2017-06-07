@@ -12170,7 +12170,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_inputs</span><span class="p">():</span>
@@ -12232,7 +12232,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[187]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_init_cell</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">rnn_size</span><span class="p">):</span>
@@ -12287,7 +12287,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[188]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_embed</span><span class="p">(</span><span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">):</span>
@@ -12349,7 +12349,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[189]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">build_rnn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">inputs</span><span class="p">):</span>
@@ -12409,7 +12409,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[190]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">build_nn</span><span class="p">(</span><span class="n">cell</span><span class="p">,</span> <span class="n">rnn_size</span><span class="p">,</span> <span class="n">input_data</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">embed_dim</span><span class="p">):</span>
@@ -12507,7 +12507,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[191]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_batches</span><span class="p">(</span><span class="n">int_text</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">seq_length</span><span class="p">):</span>
@@ -12592,7 +12592,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[198]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
@@ -12633,7 +12633,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[199]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12684,7 +12684,7 @@ Default GPU Device: /gpu:0
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[200]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12732,36 +12732,36 @@ Default GPU Device: /gpu:0
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch   0 Batch    0/67   train_loss = 8.824
-Epoch  20 Batch    0/67   train_loss = 3.402
-Epoch  40 Batch    0/67   train_loss = 2.258
-Epoch  60 Batch    0/67   train_loss = 1.540
-Epoch  80 Batch    0/67   train_loss = 1.056
-Epoch 100 Batch    0/67   train_loss = 0.775
-Epoch 120 Batch    0/67   train_loss = 0.622
-Epoch 140 Batch    0/67   train_loss = 0.552
-Epoch 160 Batch    0/67   train_loss = 0.507
-Epoch 180 Batch    0/67   train_loss = 0.487
-Epoch 200 Batch    0/67   train_loss = 0.483
-Epoch 220 Batch    0/67   train_loss = 0.473
-Epoch 240 Batch    0/67   train_loss = 0.480
-Epoch 260 Batch    0/67   train_loss = 0.467
-Epoch 280 Batch    0/67   train_loss = 0.463
-Epoch 300 Batch    0/67   train_loss = 0.457
-Epoch 320 Batch    0/67   train_loss = 0.455
-Epoch 340 Batch    0/67   train_loss = 0.454
+<pre>Epoch   0 Batch    0/67   train_loss = 8.822
+Epoch  20 Batch    0/67   train_loss = 3.436
+Epoch  40 Batch    0/67   train_loss = 2.275
+Epoch  60 Batch    0/67   train_loss = 1.483
+Epoch  80 Batch    0/67   train_loss = 1.004
+Epoch 100 Batch    0/67   train_loss = 0.769
+Epoch 120 Batch    0/67   train_loss = 0.621
+Epoch 140 Batch    0/67   train_loss = 0.539
+Epoch 160 Batch    0/67   train_loss = 0.503
+Epoch 180 Batch    0/67   train_loss = 0.490
+Epoch 200 Batch    0/67   train_loss = 0.481
+Epoch 220 Batch    0/67   train_loss = 0.472
+Epoch 240 Batch    0/67   train_loss = 0.470
+Epoch 260 Batch    0/67   train_loss = 0.463
+Epoch 280 Batch    0/67   train_loss = 0.459
+Epoch 300 Batch    0/67   train_loss = 0.456
+Epoch 320 Batch    0/67   train_loss = 0.456
+Epoch 340 Batch    0/67   train_loss = 0.455
 Epoch 360 Batch    0/67   train_loss = 0.453
 Epoch 380 Batch    0/67   train_loss = 0.452
-Epoch 400 Batch    0/67   train_loss = 0.456
+Epoch 400 Batch    0/67   train_loss = 0.452
 Epoch 420 Batch    0/67   train_loss = 0.450
-Epoch 440 Batch    0/67   train_loss = 0.450
-Epoch 460 Batch    0/67   train_loss = 0.450
+Epoch 440 Batch    0/67   train_loss = 0.449
+Epoch 460 Batch    0/67   train_loss = 0.449
 Epoch 480 Batch    0/67   train_loss = 0.449
 Epoch 500 Batch    0/67   train_loss = 0.448
 Epoch 520 Batch    0/67   train_loss = 0.448
 Epoch 540 Batch    0/67   train_loss = 0.447
 Epoch 560 Batch    0/67   train_loss = 0.447
-Epoch 580 Batch    0/67   train_loss = 0.447
+Epoch 580 Batch    0/67   train_loss = 0.446
 Epoch 600 Batch    0/67   train_loss = 0.446
 Model Trained and Saved
 </pre>
@@ -12784,7 +12784,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[201]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12810,7 +12810,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[202]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12849,7 +12849,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[203]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -12905,7 +12905,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[204]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pick_word</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">):</span>
@@ -12915,7 +12915,7 @@ Model Trained and Saved
 <span class="sd">    :param int_to_vocab: Dictionary of word ids as the keys and words as the values</span>
 <span class="sd">    :return: String of the predicted word</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">probabilities</span><span class="p">)</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">probabilities</span><span class="p">)),</span> <span class="n">p</span> <span class="o">=</span> <span class="n">probabilities</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">int_to_vocab</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
 
 
@@ -12958,7 +12958,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[205]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -13020,19 +13020,17 @@ Model Trained and Saved
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>INFO:tensorflow:Restoring parameters from ./save
-moe_szyslak:(lying) oh, it is. i think it could work?
-moe_szyslak:(gently) edna wants. but then we never see you&#39;re looking.
-moe_szyslak: nah, she&#39;s you guys. you&#39;re at the little girl, you should see. this is gonna be a fool.
-moe_szyslak: well, i&#39;m an idiot.
-homer_simpson: what about the media.(suddenly nervous) gimme one of those.
-moe_szyslak: huh. hey, listen, where the fdic can&#39;t get its grubby.
-homer_simpson: please?
-moe_szyslak: i like it.
-moe_szyslak: no. you&#39;re fighting a guy. i&#39;ve got a date.
-lenny_leonard: it&#39;s too! what if you really think of you gotta do it all... and you can always do it fast.
-homer_simpson:(reading) jane fonda, duff!
-, the man is, i can&#39;t. it was, he&#39;d be some. while.
-moe_szyslak: i&#39;m gonna get to homer.(into phone) uh, now, ya gotta be... what, you&#39;re better
+moe_szyslak: yeah, yeah, i&#39;ve been meanin&#39; to you all(another of these days. all right, but uh what the beauty part.
+carl_carlson:(calling off tv) yeah, ever since i can.
+carl_carlson: moe, but you still miss the upn of those who, my friend!
+bart_simpson:(thru phone) is this about the booze. on the elder!
+moe_szyslak: i&#39;m gonna be barney who gets money back.
+moe_szyslak: uh, well, if it isn&#39;t little bart.(then mean) i know. you&#39;re one hundred and sixteen.
+moe_szyslak: sorry, homer. / i&#39;m just here from the kids i&#39;m in the bartender.
+moe_szyslak: don&#39;t, get it out! it&#39;s worse than i thought!
+homer_simpson: mr. smithers, wait! marge cut?
+moe_szyslak: here you go, little one. okay? and got the love!
+barney_gumble: after they shoot a minute, moe. you shouldn&#39;t have a shot, that&#39;s it, boggs! listen, mr. smithers! / hooray! / oh
 </pre>
 </div>
 </div>
